@@ -16,10 +16,7 @@ function CheckFind(event) {
 			document.getElementById('ScoreNum').innerHTML = score;
 			document.getElementById('mike').innerHTML = "&nbsp; <strike>Mike Wazowski</strike>";
 			mikelock++;
-			if (score == 5) {
-		alert("congratualations you found all the characters! Press OK to restart");
-		location.reload();
-	}
+			
 		} else {
 			alert("You've already found this character");
 		}
@@ -30,10 +27,7 @@ function CheckFind(event) {
 			document.getElementById('ScoreNum').innerHTML = score;
 			document.getElementById('yoshi').innerHTML = "&nbsp; <strike>Yoshi</strike>";
 			yoshilock++;
-			if (score == 5) {
-		alert("congratualations you found all the characters! Press OK to restart");
-		location.reload();
-	}
+			
 		} else {
 			alert("You've already found this character");
 		}
@@ -44,10 +38,7 @@ function CheckFind(event) {
 			document.getElementById('ScoreNum').innerHTML = score;
 			document.getElementById('finn').innerHTML = "&nbsp; <strike>Finn the Human</strike>";
 			finnlock++;
-			if (score == 5) {
-		alert("congratualations you found all the characters! Press OK to restart");
-		location.reload();
-	}
+			
 		} else {
 			alert("You've already found this character");
 		}
@@ -58,10 +49,7 @@ function CheckFind(event) {
 			document.getElementById('ScoreNum').innerHTML = score;
 			document.getElementById('shaggy').innerHTML = "&nbsp; <strike>Norville 'Shaggy' Rogers</strike>";
 			shaggylock++;
-			if (score == 5) {
-		alert("congratualations you found all the characters! Press OK to restart");
-		location.reload();
-	}
+			
 		} else {
 			alert("You've already found this character");
 		}
@@ -72,10 +60,7 @@ function CheckFind(event) {
 			document.getElementById('ScoreNum').innerHTML = score;
 			document.getElementById('jimmy').innerHTML = "&nbsp; <strike>Jimmy Neutron</strike>";
 			jimmylock++;
-			if (score == 5) {
-		alert("congratualations you found all the characters! Press OK to restart");
-		location.reload();
-	}
+			
 		} else {
 			alert("You've already found this character");
 		}
@@ -89,5 +74,8 @@ function CheckFind(event) {
 			alert("You've already found this character");
 		}
 	}
-	
+	if (score == 5) {
+		alert("congratualations you found all the characters! Press OK to restart");
+		location.reload();
+	}
 }
