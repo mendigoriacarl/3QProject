@@ -10,6 +10,7 @@ body{
 }
 .buttons a:link{
     background-color: rgb(177,223,104);
+    color: aliceblue;
     display: inline-block;
     padding: 10px;
     width: auto;
