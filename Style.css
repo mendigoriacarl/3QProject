@@ -61,7 +61,23 @@ body{
 #Sidebar{
     background-color: rgb(177,223,104);
     display: inline-block;
-    width: 210px;
-    height: 625px;
+    padding:  10px;
+    width: 290px;
+    height: 605px;
     border-radius: 5px;
+}
+
+#lookout{
+    background-color: rgb(119,161,53);
+    padding: 5px;
+}
+
+#topText{
+    font-size: 20px;
+}
+
+.differentBackground{
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgb(139,191,57);
 }
